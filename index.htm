@@ -5,6 +5,17 @@
   <title>Programming form A to Z { codebeat }</title>
   <link rel="shortcut icon" href="/codebeat/codebeat.png" />
   <link rel="stylesheet" href="/codebeat/codebeat.css">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').then(function () {
+        console.log('Service worker successfully registered');
+      }).catch(function (err) {
+        console.error('Service worker failed to register', err);
+      });
+    } else {
+      console.log('Service workers not supported');
+    }
+  </script>
 </head>
 <body>
   <div class="tab">
