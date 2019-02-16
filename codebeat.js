@@ -2,6 +2,7 @@
   let notes = [
     {url: '/codebeat/', title: 'About the Course'},
     {url: '/codebeat/htmlcss', title: 'HTML and CSS'},
+    {url: '/codebeat/JsServer', title: 'Server Side JavaScript with Nodejs'},
     {url: '/codebeat/JsLibraries', title: 'JavaScript Library'},
     {url: '/codebeat/chromeExtension', title: 'Chrome Extension'}
   ];
