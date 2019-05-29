@@ -1,15 +1,21 @@
 (function(){
   let notes = [
     {url: '/codebeat/', title: 'About the Course'},
-    {url: '/codebeat/htmlcss', title: 'HTML and CSS'},
-    {url: '/codebeat/JsServer', title: 'Server Side JavaScript with Nodejs'},
-    {url: '/codebeat/JsLibraries', title: 'JavaScript Library'},
-    {url: '/codebeat/chromeExtension', title: 'Chrome Extension'}
+    {url: '/codebeat/htmlcss/', title: 'HTML and CSS'},
+    {url: '/codebeat/JsServer/', title: 'Server Side JavaScript with Nodejs'},
+    {url: '/codebeat/JsLibraries/', title: 'JavaScript Library'},
+    {url: '/codebeat/chromeExtension/', title: 'Chrome Extension'}
   ];
 
   let tab = document.querySelector('.tab')
   let body = document.querySelector('.body')
-
+  let iframe = document.querySelector('iframe')
+  if(iframe){
+    let url = window.location.href
+    let m = url.replace(/(codebeat)/, "codebeatmd")
+    console.log(m)
+    iframe.src = m
+  }
   let html = notes.map(note => `<div class="a" data-url="${note.url}">${note.title}</div>`).join('')
   tab.innerHTML = html
 
