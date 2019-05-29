@@ -1,0 +1,22 @@
+[
+  {
+    "title": "About the Course",
+    "url": "/codebeat/"
+  },
+  {
+    "title": "HTML and CSS",
+    "url": "/codebeat/htmlcss/"
+  },
+  {
+    "title": "Server Side JavaScript with Nodejs",
+    "url": "/codebeat/JsServer/"
+  },
+  {
+    "title": "JavaScript Library",
+    "url": "/codebeat/JsLibraries/"
+  },
+  {
+    "title": "Chrome Extension",
+    "url": "/codebeat/chromeExtension/"
+  }
+]
