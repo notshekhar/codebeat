@@ -96,6 +96,7 @@ iframe{
 iframe::-webkit-scrollbar{
   width: 0px;
 }
+
 hr{
   position: relative;
   margin-left: 0px;

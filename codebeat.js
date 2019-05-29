@@ -12,7 +12,7 @@
   let iframe = document.querySelector('iframe')
   if(iframe){
     let url = window.location.href
-    let m = url.replace(/(codebeat)/, "codebeatmd")
+    let m = url.replace(/(codebeat)/, "blogs")
     console.log(m)
     iframe.src = m
   }
